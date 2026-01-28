@@ -11,13 +11,10 @@
     "dist"
   ],
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --ext ts,tsx --fix",
-    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\"",
-    "preview": "vite preview",
-    "example": "vite example"
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\""
   },
   "peerDependencies": {
     "react": ">=16.8.0",
@@ -29,7 +26,6 @@
     "@types/react-dom": "^18.2.0",
     "@typescript-eslint/eslint-plugin": "^8.52.0",
     "@typescript-eslint/parser": "^8.52.0",
-    "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
