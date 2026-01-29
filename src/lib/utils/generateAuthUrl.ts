@@ -9,5 +9,5 @@ export const generateAuthUrl = (config: DataGSMConfig): string => {
     redirect_uri: redirectUri,
   });
 
-  return `${serverUrl}?${params.toString()}`;
+  return `${serverUrl}/signin?${params.toString()}`;
 };
