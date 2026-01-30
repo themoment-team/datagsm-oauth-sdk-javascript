@@ -1,5 +1,5 @@
 import { DataGSMConfig } from '../types/types';
-import serverUrl from './serverUrl';
+import CLIENT_URL from './clientUrl';
 
 export const generateAuthUrl = (config: DataGSMConfig): string => {
   const { clientId, redirectUri } = config;
@@ -9,5 +9,5 @@ export const generateAuthUrl = (config: DataGSMConfig): string => {
     redirect_uri: redirectUri,
   });
 
-  return `${serverUrl}/signin?${params.toString()}`;
+  return `${CLIENT_URL}/signin?${params.toString()}`;
 };
