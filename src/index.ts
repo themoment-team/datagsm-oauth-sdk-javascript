@@ -1,4 +1,9 @@
-export { DataGSMProvider, useDataGSMConfig } from './lib/store/OauthProvider';
-export { DataGSMLoginButton } from './lib/components/button';
-export { useDataGSM } from './lib/hooks/useDataGSM';
-export type { DataGSMConfig } from './lib/types/types';
+export { OAuthProvider } from './OAuthProvider';
+export type { OAuthProviderProps } from './OAuthProvider';
+
+export { OAuthLoginButton } from './OAuthLoginButton';
+export type { OAuthLoginButtonProps } from './OAuthLoginButton';
+
+export { useOAuth } from './hooks';
+
+export type { OAuthConfig, OAuthContextValue } from './types';
