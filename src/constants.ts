@@ -1,1 +1,1 @@
-export const DATAGSM_OAUTH_URL = 'https://oauth.datagsm.com/authorize';
+export const DATAGSM_OAUTH_URL = 'https://datagsm-front-client.vercel.app/signin';
