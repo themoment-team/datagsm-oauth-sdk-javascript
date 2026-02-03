@@ -1,7 +1,6 @@
 # datagsm-oauth-sdk-javascript
 
-React 애플리케이션에서 Data GSM OAuth 서비스 연동을 돕는 간단한 OAuth 리다이렉션 헬퍼 라이브러리입니다.
-React 애플리케이션에 Data GSM 로그인을 쉽게 통합하세요.
+React 애플리케이션에서 Data GSM OAuth 서비스 연동을 라이브러리입니다.
 
 ## 설치
 
