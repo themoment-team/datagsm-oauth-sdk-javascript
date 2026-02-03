@@ -29,8 +29,8 @@ import App from './App';
 
 function Root() {
   return (
-    <OAuthProvider
-      clientId="YOUR_CLIENT_ID"
+    <OAuthProvider 
+      clientId="YOUR_CLIENT_ID" 
       redirectUri="YOUR_REDIRECT_URI"
     >
       <App />
@@ -40,7 +40,7 @@ function Root() {
 ```
 
 | Prop          | Type     | Required | Description                               |
-|---------------|----------|----------|-------------------------------------------|
+| ------------- | -------- | -------- | ----------------------------------------- |
 | `clientId`    | `string` | Yes      | Data GSM 애플리케이션 클라이언트 ID.      |
 | `redirectUri` | `string` | Yes      | 로그인 성공 후 리다이렉트될 URL.          |
 | `children`    | `node`   | Yes      | 컨텍스트 내에서 렌더링될 React 자식 요소. |
@@ -71,8 +71,8 @@ function LoginPage() {
 표준 HTML 버튼(`HTMLButtonElement`)의 모든 props를 지원합니다.
 
 | Prop       | Type   | Default             | Description |
-|------------|--------|---------------------|-------------|
-| `children` | `node` | `'Data GSM 로그인'` | 버튼 내용. |
+| ---------- | ------ | ------------------- | ----------- |
+| `children` | `node` | `'Data GSM 로그인'` | 버튼 내용.  |
 
 ### 3. useOAuth 훅 사용하기
 
