@@ -1,16 +1,16 @@
 {
-  "name": "datagsm-oauth-sdk-javascript",
+  "name": "@themoment-team/datagsm-oauth-react",
   "version": "0.1.0",
   "description": "A simple OAuth redirection helper library for Data GSM OAuth service integration with React.",
   "license": "MIT",
   "author": "themoment-team",
-  "homepage": "https://github.com/themoment-team/datagsm-oauth-sdk-javascript#readme",
+  "homepage": "https://github.com/themoment-team/datagsm-oauth-sdk-react#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themoment-team/datagsm-oauth-sdk-javascript.git"
+    "url": "git+https://github.com/themoment-team/datagsm-oauth-sdk-react.git"
   },
   "bugs": {
-    "url": "https://github.com/themoment-team/datagsm-oauth-sdk-javascript/issues"
+    "url": "https://github.com/themoment-team/datagsm-oauth-sdk-react/issues"
   },
   "keywords": [
     "oauth",
